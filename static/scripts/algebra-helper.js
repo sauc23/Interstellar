@@ -233,6 +233,13 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false
     },
     {
+      name: "AO3",
+      link: "https://archiveofourown.org/",
+      image: "https://file.garden/ZSdA-IaLWgVEMH-0/AO3_Logo.png",
+      categories: ["all", "social"],
+      error: false
+    },
+    {
       name: "ChatGPT Clone",
       link: "https://chat.shuttle.rip/",
       image: "/images/icons/chatgpt.png",
