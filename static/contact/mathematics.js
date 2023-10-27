@@ -35757,7 +35757,7 @@
         });
     };
     
-    function createInjection(handler = '/algebra.js', bundle = '/mathematics.js', config = '/geography.js', cookies = '', referrer = '') {
+    function createInjection(handler = '/uv.handler.js', bundle = '/uv.bundle.js', config = '/uv.config.js', cookies = '', referrer = '') {
         return [
             {
                 tagName: 'script',
@@ -39140,7 +39140,7 @@
     
     class Ultraviolet {
         constructor(options = {}) {
-            this.prefix = options.prefix || '/reviews/';
+            this.prefix = options.prefix || '/service/';
             this.urlRegex = /^(#|about:|data:|mailto:)/
             this.rewriteUrl = options.rewriteUrl || this.rewriteUrl;
             this.sourceUrl = options.sourceUrl || this.sourceUrl;
@@ -39150,9 +39150,9 @@
             this.meta = options.meta || {};
             this.meta.base ||= undefined;
             this.meta.origin ||= '';
-            this.bundleScript = options.bundle || '/mathematics.js';
-            this.handlerScript = options.handler || '/algebra.js';
-            this.configScript = options.config || '/geography.js';
+            this.bundleScript = options.bundle || '/uv.bundle.js';
+            this.handlerScript = options.handler || '/uv.handler.js';
+            this.configScript = options.config || '/uv.config.js';
             this.meta.url ||= this.meta.base || '';
             this.codec = Ultraviolet.codec;
             this.html = new _html_js__WEBPACK_IMPORTED_MODULE_0__["default"](this);
