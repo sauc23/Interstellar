@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: "Movie Web",
       link: "https://movie-web.app",
-      image: "https://movie-web.app/apple-touch-icon.png",
+      image: "https://file.garden/ZSdA-IaLWgVEMH-0/apple-touch-icon.png",
       categories: ["all", "media", "stream"],
       error: false
     },
