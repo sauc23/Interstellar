@@ -4,7 +4,7 @@ importScripts('/contact/geography.js');
 class UVServiceWorker extends EventEmitter {   
     constructor(config = __uv$config) {
         super();
-        if (!config.bare) config.bare = 'https://bare-server-vercel.vercel.app/bare/';
+        if (!config.bare) config.bare = 'https://cxfdfdfd.ddnsking.com/bare/';
         this.addresses = typeof config.bare === 'string' ? [ new URL(config.bare, location) ] : config.bare.map(str => new URL(str, location));
         this.headers = {
             csp: [
