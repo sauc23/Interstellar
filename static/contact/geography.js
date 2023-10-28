@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/reviews/',
-    bare: 'https://cxfdfdfd.ddnsking.com/bare/',
+    bare: 'https://bare-server-vercel.vercel.app/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/contact/algebra.js',
