@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/reviews/',
-    bare: 'https://xcw8fd-8000.csb.app/bare/',
+    bare: 'https://cxfdfdfd.ddnsking.com/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/contact/algebra.js',
